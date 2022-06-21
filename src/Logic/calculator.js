@@ -6,6 +6,16 @@ let s = 0;
 
 let p = 0;
 
+function setSalary(salary){
+    s = salary;
+
+}
+
+function setPension(pension){
+    p = pension;
+
+}
+
 
 function taxCalculator(){
     let PAYE = 0;
