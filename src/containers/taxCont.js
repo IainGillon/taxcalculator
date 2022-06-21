@@ -9,8 +9,7 @@ const TaxCont = () => {
 
     }, []);
 
-    function setSalary(salary){
-        s = salary;
 
-    }
+
+
 }
