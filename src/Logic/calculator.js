@@ -4,6 +4,8 @@
 
 let s = 0;
 
+let p = 0;
+
 
 function taxCalculator(){
     let PAYE = 0;
@@ -66,3 +68,19 @@ function niCalculator(){
 
     }
 }
+
+
+
+function takehomeCalc(){
+    taxCalculator(s);
+    pensionCalculator(p);
+    niCalculator(s);
+
+    let takehome = s - PAYE - pension - ni;
+
+    console.log('Your net pay is ' + takehome + ' you will pay ' + PAYE + ' in tax and '+ ni + ' in National insurancee' )
+
+}
+
+
+export default Calculator;
