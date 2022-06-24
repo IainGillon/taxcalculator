@@ -16,7 +16,7 @@ function setPension(pension){
 
 }
 
-
+const Calculator = () => {
 function taxCalculator(){
     let PAYE = 0;
     
@@ -91,6 +91,6 @@ function takehomeCalc(){
     console.log('Your net pay is ' + takehome + ' you will pay ' + PAYE + ' in tax and '+ ni + ' in National insurancee' )
 
 }
-
+}
 
 export default Calculator;
